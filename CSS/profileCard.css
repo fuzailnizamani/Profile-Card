@@ -1,0 +1,218 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+}
+
+.profile-Card-container {
+  width: 390px;
+  height: 450px;
+  border: none;
+  border-style: solid;
+  border-width: 0.2px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
+
+.profile-picture {
+  width: 100%;
+  height: 150px;
+  background-color: rgb(6, 97, 234);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.picture {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  position: absolute;
+  bottom: -25px;
+  border-radius: 75px;
+  display: block;
+  border: 4px solid rgb(6, 97, 234);
+}
+
+.profile-detail {
+  width: 100%;
+  height: 300px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.name {
+  position: absolute;
+  top: 40px;
+  font-size: 25px;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.channel {
+  position: absolute;
+  top: 75px;
+  font-family: Arial;
+  font-size: 18px;
+}
+
+.faceboob-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 110px;
+  left: 100px;
+}
+
+.twitter-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: right;
+  border-radius: 50px;
+  position: absolute;
+  top: 110px;
+  left: 160px;
+}
+
+.instagram-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: left;
+  position: absolute;
+  top: 110px;
+  left: 210px;
+}
+
+.youtube-logo {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 15px;
+  position: absolute;
+  top: 113px;
+  left: 265px;
+}
+
+.button-Subscribe {
+  position: absolute;
+  top: 180px;
+  left: 60px;
+  padding: 12px 25px 12px 23px;
+  background-color: rgb(6, 97, 234);
+  color: white;
+  border: none;
+  font-size: 20px;
+  font-family: Arial;
+  border-radius: 25px;
+  transition: background-color 0.15s;
+}
+
+.button-Subscribe:hover {
+  background-color: blue;
+}
+
+.button-Message {
+  position: absolute;
+  top: 180px;
+  left: 220px;
+  padding: 12px 25px 12px 25px;
+  background-color: rgb(6, 97, 234);
+  color: white;
+  border: none;
+  font-size: 20px;
+  font-family: Arial;
+  border-radius: 25px;
+  transition: background-color 0.15s;
+}
+
+.button-Message:hover {
+  background-color: blue;
+}
+
+.icone {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 25px;
+  position: absolute;
+  top: 250px;
+  left: 70px;
+}
+
+.number-of-like {
+  position: absolute;
+  top: 237px;
+  left: 98px;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: bold;
+  color: gray;
+}
+
+.line {
+  position: absolute;
+  top: 237px;
+  left: 160px;
+  font-size: 16px;
+  font-family: Arial;
+  font-weight: bold;
+  color: gray;
+}
+
+.message-icone {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 252px;
+  left: 180px;
+}
+
+.number-of-comments {
+  position: absolute;
+  top: 236px;
+  left: 210px;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: bold;
+  color: gray;
+}
+
+.line1 {
+  position: absolute;
+  top: 237px;
+  left: 255px;
+  font-size: 16px;
+  font-family: Arial;
+  font-weight: bold;
+  color: gray;
+}
+
+.share-icone {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 252px;
+  left: 270px;
+}
+
+.number-of-shares {
+  position: absolute;
+  top: 235px;
+  left: 295px;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: bold;
+  color: gray;
+}
